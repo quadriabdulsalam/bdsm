@@ -12,7 +12,7 @@ function Navbar() {
     }
     return (
         <div>
-        <AiOutlineMenu onClick={handleNav} className='absolute fixed top-4 right-4 z-[99] md:hidden'/>
+        <AiOutlineMenu onClick={handleNav} className='absolute fixed top-4 right-4 z-[99] md:hidden text-white text-3xl'/>
         {
             nav ? (
             <div className='fixed w-full h-screen bg-white/90  flex flex-col justify-center items-center z-20'>
@@ -28,7 +28,7 @@ function Navbar() {
                     <AiOutlineProject size={20}/>
                     <span className='pl-4'>Project</span>
                 </a>
-                <a onClick={handleNav} href='#resume' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <a onClick={handleNav} href='#bloga' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <BsPerson size={20}/>
                     <span className='pl-4'>Resume</span>
                 </a>

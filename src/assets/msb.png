@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+
+			                <link rel="alternate" type="application/rss+xml" title="The Cage Magazine"
+                      href="/rss/magazine.rss">
+									
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,700,500,300&subset=latin,latin-ext" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,500,300&subset=latin,latin-ext"></noscript><link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,latin-ext" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,latin-ext"></noscript><link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"></noscript><link rel="preload" href="/static/tc/css/styleguide_new.css?5599373791f9e0825e67a46d501d7a34" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/static/tc/css/styleguide_new.css?5599373791f9e0825e67a46d501d7a34"></noscript><link rel="preload" href="/libs/magnific-popup/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/libs/magnific-popup/magnific-popup.css"></noscript>            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+			            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCYERW9224"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
+                let opts = {};
+                let userProperties = {};
+				                userProperties['membership'] = 'guest';
+
+				
+                gtag('js', new Date());
+                gtag('config', 'G-PCYERW9224', opts);
+                if (userProperties) {
+                    gtag('set', 'user_properties', userProperties);
+                }
+
+            </script>
+			            <link rel="stylesheet" type="text/css" href="/static/tc/css/face-eng-blue.css?5599373791f9e0825e67a46d501d7a34">
+			            <link rel="stylesheet" href="/libs/fontello/css/fontello.css?5599373791f9e0825e67a46d501d7a34"/>
+            <link rel="stylesheet" href="/libs/fontello/css/animation.css"/>
+			        <script type="text/javascript">
+            /* ClientSideState */
+            var basedir = "/";
+            var direction = "ltr";
+            var locale = "en-US";
+            var pushServerUrl = "https://relay.thecage.co";
+            var config = {
+                face: "eng"
+            };
+			            var cacheBustr = "5599373791f9e0825e67a46d501d7a34";
+			            var theme = "blue";
+			            var VAPIDPublicKey = "BBeepiGRgO1u6Mw_ElE_fqJeuKXENViuRKDLKlcsPlad_pZWAgQ3mENLZ8quhYhXKDEKJIY5MulQS0n5mynG5tY";
+			
+            var currentUser = {"region_country_code":"NG","isLoggedIn":false,"timeZone":null,"staticImagePath":"https:\/\/images.thecage.co\/static\/"}
+
+        </script>
+
+
+		        <script type="text/javascript">
+			        </script>
+
+
+	        <script src="/static/tc/js/script_en.min.js?5599373791f9e0825e67a46d501d7a34"></script>
+	        <link rel="stylesheet" href="/static/react/assets/main-BGRitAnp.css"/>
+<script type="module" src="/static/react/assets/main-JYW4iRfw.js" async defer></script>
+
+        <script defer async src="/libs/magnific-popup/jquery.magnific-popup.min.js"
+                onload="magnificPopupLoaded()"></script>
+        <script>
+            function bootstrapJsLoaded() {
+                $('[data-toggle="tooltip"]').tooltip();
+            }
+        </script>
+
+        <script defer async src="/bower_components/bootstrap/dist/js/bootstrap.min.js"
+                onload="bootstrapJsLoaded()"></script>
+
+
+		
+            <link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
+			                <link rel="stylesheet" href="/bower_components/flag-icon-css/css/flag-icon.min.css"/>
+			
+                <link rel="apple-touch-icon-precomposed" sizes="180x180"
+                      href="https://images.thecage.co/static/logo/ios/apple-touch-icon-180x180.png">
+                <link rel="apple-touch-icon" sizes="180x180"
+                      href="https://images.thecage.co/static/logo/ios/apple-touch-icon-180x180.png">
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphone5_splash.png"
+                      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphone6_splash.png"
+                      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphoneplus_splash.png"
+                      media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphonex_splash.png"
+                      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphonexr_splash.png"
+                      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/iphonexsmax_splash.png"
+                      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/ipad_splash.png"
+                      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/ipadpro1_splash.png"
+                      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/ipadpro3_splash.png"
+                      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+                <link href="https://images.thecage.co/static/logo/splashscreens/ipadpro2_splash.png"
+                      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
+                      rel="apple-touch-startup-image"/>
+			
+
+            <meta name="mobile-web-app-capable" content="yes">
+            <meta name="theme-color" content="#212121">
+            <meta name="apple-mobile-web-app-title" content="THE CAGE">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta name="format-detection" content="telephone=no">
+
+			                <script defer async src="/static/tc/lib/socket.io.min.js" onerror="ServerAPI.pushListenerUnavailable()"
+                        onload="ServerAPI.pushClientHasLoaded()">
+                </script>
+				            <script defer async src="/static/tc/lib/joypixels.min.js"></script>
+
+            <link rel="icon" href="/imgs/face/eng/favicon-2020.ico?1" type="image/x-icon">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			
+                <meta name="robots" content="INDEX,FOLLOW">
+				            <meta name="language" content="en">
+            <meta name="author" content="The Cage">
+            <meta name="copyright" content="The Cage">
+            <meta http-equiv="Pragma" content="no-cache">
+            <meta http-equiv="Content-language" content="en">
+            <meta name="title" content="BDSM Contracts: What You Need to Know"/>
+            <meta name="og:title" content="BDSM Contracts: What You Need to Know"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:site_name" content="THE CAGE"/>
+            <meta property="og:url" content="https://thecage.co/magazine,242.html"/>
+            <meta property="og:description"
+                  content="A look at the potential value and legal implications of a BDSM Contract">
+            <meta property="og:image"
+                  content="https://userimages.thecage.co/albums/600-242/ZGNjMDg1ZTBiNjk.jpg"/>
+            <meta name="description"
+                  content="A look at the potential value and legal implications of a BDSM Contract">
+            <meta name="twitter:title" content="BDSM Contracts: What You Need to Know">
+            <meta name="twitter:description"
+                  content="A look at the potential value and legal implications of a BDSM Contract">
+
+            <meta name="twitter:site" content="@thecageco">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta property="twitter:domain" content="thecage.co">
+            <meta property="twitter:url" content="https://thecage.co/magazine,242.html">
+            <meta name="twitter:title" content="BDSM Contracts: What You Need to Know">
+            <meta name="twitter:description" content="A look at the potential value and legal implications of a BDSM Contract">
+            <meta name="twitter:image" content="https://userimages.thecage.co/albums/600-242/ZGNjMDg1ZTBiNjk.jpg">
+
+
+            <title>BDSM Contracts: What You Need to Know</title>
+			                <link rel="manifest" href="/manifest_en.json?5599373791f9e0825e67a46d501d7a34">
+
+			
+            <script>
+                function reportTimeZone() {
+                    ServerAPI.call('TimeZoneService', 'SetTimeZone', {
+                        tz: jstz.determine().name(),
+                        pixelRatio: window.devicePixelRatio ?? undefined
+                    });
+                }
+            </script>
+            <script src="/static/lib/jstz.min.js?5599373791f9e0825e67a46d501d7a34" defer async onload="reportTimeZone();"></script>
+			                <style>
+                    body {
+                        font-display: optional
+                    }
+                </style>
+				        </head>
+
+
+		<body class="ltr" >
+<div class="wrapper">
+	<div class="topbar-desktop shown" id="topbar-desktop" style="width: 100%; box-sizing:content-box; height: 91px;">
+    <div style="height: 56px; display: block;">
+        <a href="/main.php">
+            <div class="topbar-desktop-logo">		<div class="react_IntlLogo" data="{&quot;color&quot;:&quot;#ddd&quot;}"  ></div></div>
+        </a>
+
+                    <div class="pull-to btn-group" style="vertical-align: center; height: 56px;  padding: 11px;">
+                <a class="btn btn-default" href="/login.php"><i class="icon-login"></i>&nbsp;Sign In</a>
+                <a class="btn btn-default" href="/register.php"><i
+                            class="icon-user"></i>&nbsp;Register</a>
+            </div>
+        
+                    <div class="pull-to" style="padding: 1em;">
+                <a class="btn btn-default"
+                   style="padding-top: 2px; padding-bottom: 2px; background-color: transparent; letter-spacing: 0.4px;"
+                   href="/help">
+                    Help</span>
+                </a>
+            </div>
+                <div class="pull-to" style="padding: 1em;">
+            <div class="btn-group" role="group">
+                <a class="btn btn-default" href="/main.php?theme=red">
+                    <div style="border-radius: 0.5em; height: 1em; width: 1em; background-color: #fae5cf;"></div>
+                </a>
+                <a role="button" class="btn btn-default" href="/main.php?theme=blue">
+                    <div style="border-radius: 0.5em; height: 1em; width: 1em; background-color: #5a5d73;"></div>
+                </a>
+            </div>
+        </div>
+                
+    </div>
+    <div class="link-bar">
+                                                                            <a href="/blog/"                         
+                   class="mainmenu-item pull-from">
+                    Blogs
+                                    </a>
+                                                <a href="/phpBB/recent.php"                         
+                   class="mainmenu-item pull-from">
+                    Forum
+                                    </a>
+                                                <a href="/library.php"                         
+                   class="mainmenu-item pull-from">
+                    Magazine
+                                    </a>
+                                                <a href="/memberlist.php"                         
+                   class="mainmenu-item pull-from">
+                    Find friends
+                                    </a>
+                                                <a href="/contactlist.php"                         
+                   class="mainmenu-item pull-from">
+                    Contacts
+                                    </a>
+                                                <a href="/seeking.php"                         
+                   class="mainmenu-item pull-from">
+                    Seeking
+                                    </a>
+                                                <a href="/events/"                         
+                   class="mainmenu-item pull-from">
+                    Events
+                                    </a>
+                                                <a href="/podcasts/"                         
+                   class="mainmenu-item pull-from">
+                    Podcasts
+                                    </a>
+                                                <a href="/bdsmchat"  id="desktop-panel-chatbutton" title="BDSM Chat"                        
+                   class="mainmenu-item pull-from">
+                    Chat rooms
+                                    </a>
+                    
+        <div class="mainmenu-item pull-to" onClick="appNavigation.showOnlineNow()">
+            <i style="font-size: 15px;" class="icon-group"></i> Online now         </div>
+
+    </div>
+</div>
+<div class="onlineusers-sidebar">
+    <div class="onlineusers-toggler title">
+        <i class="icon-group" style="font-size: 15px;"></i>
+        Online now <span id="react_OnlineUserCounter2"></span>
+    </div>
+    <div class="onlineusers-filter-title">
+        <i class="icon-filter"></i>
+        <span id="filterStatus"></span>
+    </div>
+    <div id="onlineusers-filter-menu">
+
+
+    </div>
+    <div id="onlineUsersBoxWrapper">
+        <div id="onlineUsersBox">
+        </div>
+        <!-- <div style="height: 30em;"></div> -->
+    </div>
+</div>
+
+
+<script>
+
+    var isChatActive = false;
+    document.addEventListener("DOMContentLoaded", function () {
+        ServerAPI.registerPushItemListener("chat::count", function (data) {
+            var str;
+            if (data.count === 0) {
+                str = "";
+                if (isChatActive && document.getElementById("desktop-panel-chatbutton")) {
+                    document.getElementById("desktop-panel-chatbutton").classList.remove("chat-active");
+                }
+            } else {
+                if (!isChatActive && document.getElementById("desktop-panel-chatbutton")) {
+                    document.getElementById("desktop-panel-chatbutton").classList.add("chat-active");
+                }
+                str = "(" + data.count + ")";
+            }
+            var element = document.getElementById("chatUserCounter");
+            if (element) {
+                element.innerHTML = str;
+            }
+            //element = document.getElementById("chatUserCounterMobile");
+            //element.innerHTML = str;
+
+            if (data.count > 0 && isChatActive === false && screen.width < 800) {
+                $("#chat-mobile-banner").fadeIn('slow').delay(6000).fadeOut('slow');
+                if (true) {
+                    var text = (data.count > 1) ? "There are " + data.count + " people in the chat" : "There's one person in the chat";
+                } else {
+                    var text = 'There are people in the chat';
+                }
+
+                $("#chat-mobile-banner").html(text);
+            }
+            isChatActive = (data.count !== 0);
+        });
+    });
+</script>
+
+
+
+
+<a href="#" class="back-to-top">
+    <i class="icon-up-big"></i>
+</a>             		<div class="react_mobile_menu" data="{&quot;logoColor&quot;:&quot;pink&quot;,&quot;shouldDisplayChatOption&quot;:true}"  ></div>
+
+
+
+
+
+
+    <div class="visible-sm-block visible-xs-block" style="border-bottom: 1px solid #444; width: 100%; padding-bottom: 6px; padding-top: 3px; text-align: center; margin: 0 0 0.3em; cursor: pointer;" onclick="appNavigation.showOnlineNow()">
+        <i style="font-size: 18px;" class="icon-group"></i> Online now
+            </div>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        $("#topbar-mobile .button").on("click", function(event) {
+            if (!$.contains(document.getElementById("toggleTopbarDropdownButton"), event.target)) {
+                $(event.target).addClass("clicked");
+            }
+        });
+
+        $("#toggleTopbarDropdownButton").on("click", function() {
+            toggleTopbarDropdown();
+        });
+
+
+        var isOpen = false;
+        window.toggleTopbarDropdown = function () {
+
+            if (!isOpen) {
+                isOpen = true;
+                $("#toggleTopbarDropdownButton").addClass("clicked");
+                $("#topbar-mobile-dropdown").addClass("dropdownOpen");
+
+            } else {
+                isOpen = false;
+                $("#toggleTopbarDropdownButton").removeClass("clicked");
+                $("#topbar-mobile-dropdown").removeClass("dropdownOpen");
+            }
+            if (window.Android) {
+                window.Android.setIsMenuOpen(isOpen);
+            }
+
+        }
+    });
+</script>
+
+
+        <main class="container container-magazine">
+			<ol class="breadcrumb"><li><a href="library.php?Library=front_page" alt="Magazine">Magazine</a></li><li><span class="FORMTABLE_sitelist_header" title="From THE CAGE Staff"><a href="library.php?Library=view_category&amp;CatID=1" >Information &amp; Resources</a></span></li></ol>        <article>
+            <div class="jumbotron">
+
+                <h1 style="">
+					BDSM Contracts: What You Need to Know                </h1>
+                <div style="font-size: 14px;">
+					By					<span class="user user-gold user-online"><a class="user-icon" href="/mailbox.php?mailbox=new_message&amp;ReceiverID=19"><i data-toggle="tooltip" title="Online, Send a message" class="icon-staff"></i></a><a href="/profile/19" onClick="clientApi.openProfile(19, event)" class="user-text"><span class="user-name" data-trigger="focus" data-toggle="tooltip" style="text-decoration: none; unicode-bidi: embed" title="View profile" >CAGE Staff&#8203;(staff)</span></a></span>					                    &nbsp;&nbsp;&nbsp;
+
+					February 17, 2024					                </div>
+            </div>
+
+            <div class="magazine-item-content">
+				            <img style="aspect-ratio: 16/9; border-radius: 5px; margin-bottom: 32px; object-fit: cover; width: 100%;"
+                 src="/imagr/?u=albums%2F600-242%2FZGNjMDg1ZTBiNjk.jpg&w=1140&dpr=2">
+
+
+			                <div class="col-sm-12" style="float: none;">
+					<p>If you watch a mainstream movie about kink, you've probably seen the infamous "BDSM contracts". Once you you head into the kink community, you hear more about them, with sellers offering fill-in-the-blank contracts and everyday discussions from other kinksters.</p>
+<p>But what <em>ARE</em> BDSM contracts? Are they necessary? Are they legally binding? Honestly, what's the point?</p>
+<h2>No, They're Not Legally Binding</h2>
+<p>First, unless your kink contract went through a lawyer, it's likely not legally binding.</p>
+<p>In many parts of the world, you're not allowed to "own" another human - even if that human agrees to it.<em> (Did you know that that's true of most BDSM activities? Even if the submissive consents to be spanked, in many areas, a bystander may report abuse for them, and the dominant can still be persecuted.)</em></p>
+<p>Consensual BDSM just isn't a mainstream concept that the law has flushed out, and even as it does, many activities within the kink community, from a law perspective, toe the line between consensual and abuse.</p>
+<p>Even if it <em>could</em> be legally binding, have you seen a contract made for adherence to the law? It's full of complicated clauses and legalese. It's very likely that a law intern could poke 30 holes in your "Slave must bring me dinner on Tuesdays" contract before they've even had their morning coffee.<em> (Did you know that the "Release of Liability" waivers you sign before various activities aren't as foolproof as you thought either?</em>)</p>
+<p>That all being said, there still is <em>some</em> legal application for your BDSM contract - and it isn't necessarily good. Your BDSM contract could be used as proof of sexual deviance in legal battles - especially in abuse cases, employment disagreements, or child custody cases. Not exactly the erotic thoughts you were hoping for<em> (but a great reason to ensure copies of your contract stay private!).</em></p>
+<p>If we're thinking "Fifty Shades", the only contract that <em>might</em> be applicable to kink would be a Non-Disclosure Agreement, but even those can become null and void if the contracted activities are considered illegal.</p>
+<h2>So What's the Point?</h2>
+<p>If a kink contract isn't legally binding, why bother putting any effort into making one in the first place?</p>
+<p>Well, first off, it can be hot as hell.</p>
+<p>A lot of people find the idea of entering into an "official", legal arrangement to be hot. Just like you "officially" had employment once you signed all of the entry paperwork at the office, you "officially" become a partner in your dynamic when you sign the BDSM contract. This simple piece of paper can become a "sex toy" of sorts, getting you both turned on by the dynamic you've chosen to engage in.</p>
+<p>BDSM contracts can also be great negotiation tools. They <em>have</em> to be. You're, literally, negotiating and agreeing to all of the aspects that make up your relationship. Even if you thought you both thought you were on the same page, BDSM contracts can force you two to discuss things you might not have considered. Having all of the aspects laid out, line-by-line, can reduce misunderstandings and make it more likely that you hash it out (and agree to it!) before it pops up as a surprise.</p>
+<h2>...but Revisit Your BDSM Contract Often</h2>
+<p>Any contract is only as helpful as it is accurate.</p>
+<p>A lot of couples tend to make a BDSM contract when they first get together with the highest of hopes for their dynamic. They write pages upon pages of strict rules and procedures - but promptly forget about most of those after a few months of real-life comes into the equation.</p>
+<p>This can be especially destructive to the relationship if it's one-sided. If one partner is following the contract to a "T" but the other partner has forgotten, this can easily become a point of resentment. After all, you both signed a "contract", and one person isn't holding up their end of the bargain!</p>
+<p>That's why it's important to regularly revisit your BDSM contract <strong>or</strong> allow it to go by the wayside as you grow and change in your dynamic. There's nothing wrong with making a BDSM contract once mutually agreeing to disregard it as the relationship progresses.</p>
+<p>If you continue to use the BDSM contract as basis for your dynamic, revisit it every month (when the relationship is new) and every 3-6 months as the relationship grows.</p>
+<p>This allows the BDSM contract to become a "check-in" point where you both make sure that you're getting everything you want out of the dynamic, and it can be enlightening! You might be surprised to find that weekly dinner service, which you both thought was important 4 months ago, actually is "take it or leave it" for both of you. In that case, take it out of your dynamic, and use that time for activities that are more important to both of you!</p>
+<p>This also allows the BDSM contract to stay fresh in your minds. Like I said, resentment can build if one person follows the contract to a "T" - but the other forgets about it. The Dominant may get upset that the Submissive forgot about Tuesday night service, and the Submissive may get upset that the Dominant didn't punish the Submissive, as agreed to in the contract, because of their infraction.</p>
+<h2>Do I Have to Use a BDSM Contract?</h2>
+<p>As with everything kink, this is a "choose your own adventure" situation.</p>
+<p>Does a BDSM contract set your loins afire and make you feel more safe and protected? Feel free to craft one by yourself or with a partner!</p>
+<p>Does a BDSM contract give you anxiety and sound like a waste of time? Don't use one!</p>
+<p>There are no requirements to have a BDSM contract, and you will probably never hear anyone ask if you have one. <em>(I've been doing kink in communities now for over 10 years, and I've never had anyone ask!)</em></p>
+<p>If you aren't into the idea of kink contracts, just make sure to do all of the thorough negotiation outside of the contract. You might find it helpful to use a blank contract to act as a "guide" during your negotiation and dynamic creation - though it's certainly not required!</p>
+<h2>Tips for Creating a BDSM Contract</h2>
+<p>If you're brand new, use a pre-made BDSM contract. Quite a few companies create pre-made BDSM contracts you can use; if you're new to kink, save yourself some headache and use a pre-made contract. Not only does this ensure something doesn't get left out, but it's simply a lot less time consuming.</p>
+<p>If you want to create one of your own, some tips:</p>
+<ul>
+    <li><strong>Prioritize what's important. </strong>There's literally no rules to making a BDSM contract - so having a contract that lists out things neither of you consider important is just wasting paper and space. Unless you're into the kinkiness of having a long contract, most BDSM contracts will probably be just a page or two.</li>
+    <li><strong>Discuss what's important about the contract. </strong>Is thoroughness important to one of you - or are you just doing this for the eroticism? Would a large, ritualistic, "business" roleplay up the arousal for you? Figure out why you're both into this, and figure out how to best use the contract to your advantage.</li>
+    <li><strong>Write in consequences. </strong>If you both like the idea of "punishments", don't forget to write some into the contract. What happens when someone doesn't fulfill their end of the bargain? This can apply to Dominants too; they aren't exempt from neglecting the contract!</li>
+    <li><strong>Start small.</strong> It can be <em>really, really</em> tempting to try to make this <em>gigantic</em> contract with the best of intentions. Remember, though, this is about keeping it accurate and reflective of your relationship: no one can remember that many new things at once! Start small, and enjoy the idea of getting to add <em>even more</em> to it at every BDSM contract renegotiation. It'll become a living, "breathing" document that reflects your relationship that way.</li>
+    <li><strong>Look at other's contracts. </strong>Quite a few kinky people are happy to share the entirety of their BDSM contracts online. Even if you aren't copying or using them as a pre-made option, check them out for inspiration and figure out what aspects your own contract might be missing.</li>
+</ul>
+
+<p>We have a pre-made BDSM contract available for you to use, if you're interested. It's a great starting point for your own contract, and it's free to use. You can find it here <a href="https://images.thecage.co/magazine/242/the_cage_bdsm_sample_contract.pdf">Free BDSM Contract</a>.</p>
+<hr>
+<p>
+    Mistress Kay lives in the world of sexuality and kink. With a house that's quickly running out of space for things
+    that aren't sex books and sex toys, she spends what free time she has writing femdom help articles
+    (http://kinky-world.net/category/bdsm-advice/femdom-advice/), trying the latest and greatest in sex toys, and
+    exploring the sexual universe with her partners. She can be reached at Kinky World (http://kinky-world.net/).
+</p>                    <div style="display: flex; flex-direction: row; width: 200px; justify-content: space-between; margin: 80px auto 50px auto">
+						                    </div>
+                </div>
+            </div>
+        </article>
+		
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <a class="btn btn-default btn-block" role="button" href="library.php?Library=author_page&UserID=19">
+					More articles by CAGE Staff                </a>
+            </div>
+        </div>
+
+
+        <br>
+		        <div class="row">
+            <div class="col-xs-12">
+				        <div class="panel panel-default">
+            <div class="media panel-body">
+                <div class="media-left">
+
+                    <img class="media-obj avatar"
+                         src="/imagr/?u=avatar%2Favatar_104090_1597940554.png&b=a&w=120&dpr=3">
+
+                </div>
+                <div class="media-body">
+					<span class="user user-gold"><a class="user-icon" href="/mailbox.php?mailbox=new_message&amp;ReceiverID=104090"><i data-toggle="tooltip" title="Send a message" class="icon-star"></i></a><a href="/profile/104090" onClick="clientApi.openProfile(104090, event)" class="user-text"><span class="user-name" data-trigger="focus" data-toggle="tooltip" style="text-decoration: none; unicode-bidi: embed" title="View profile" >chattel&#8203;(sub female)</span></a></span><br>I have used slave contracts and find the biggest value, and almost only value,  is clear expectations<br><div style="color: #666; font-size: 11px;">Feb 24, 2024, 9:30 PM</div>                </div>
+            </div>
+        </div>
+		            </div>
+        </div>
+		        <div class="row ">
+            <div class="col-xs-12">
+                <div class="alert alert-info" role="alert">All magazine articles represent the opinions and thoughts of the authors only.&nbsp; Nothing purports to suggest an absolute truth.</div>
+            </div>
+        </div>
+		        </main>
+		
+    <div id="react_App"></div>
+    <div class="footer-block"></div>
+</div><!-- wrapper -->
+	<style>
+    .page-footer a:hover {
+        color: white;
+        transition-duration: 0.1s;
+    }
+
+</style>
+<div class="page-footer">
+    <div class="container">
+        <div class="row" style="font-size: 1.2em;">
+            <div class="col-sm-6">
+                Follow us:
+                <div style="margin-top: 6px;">
+                    <!--                   <a href="https://twitter.com/thecageco" target="_blank"><i class="icon-twitter"></i>Twitter</a> -->
+                    <a target="_blank" href="https://www.instagram.com/thecage_co/"><i class="icon-instagram"></i>Instagram</a>
+                    <div style="display: inline-block; width: 2em;"></div>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCjItBCjHgSDZTxZHCpFOzdg"><i
+                                class="icon-youtube"></i>YouTube</a>
+                    <div style="display: inline-block; width: 2em;"></div>
+                    <a target="_blank" href="https://www.tiktok.com/@thecage.co"><i class="icon-tiktok"></i>TikTok</a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                                    <a href="/rss/magazine.rss"><i class="icon-rss"></i> The Cage Magazine</a>
+                            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="/eng/CodeOfConduct.php" rel="nofollow">Code Of Conduct</a>
+                <br>
+                <a href="/eng/CommunityStandards.php" rel="nofollow">Community Standards</a>
+                <br>
+                <a href="/eng/TermsOfService.php" rel="nofollow">Terms Of Service</a>
+                <br>
+                <a href="/eng/PrivacyPolicy.php" rel="nofollow">Privacy Policy</a>
+                <br>
+                <a href="/eng/dmca.php" rel="nofollow">DMCA / Copyright Infringement Complaints Policy</a>
+                <br>
+                <a href="/eng/content-complain-policy.php" rel="nofollow">Policy Infringement Claims And Appeals</a>
+                <br>
+
+                <a href="/mailbox.php?mailbox=new_message&ReceiverID=2" rel="nofollow">Contact us</a>
+                <br>
+
+                <!--
+                <a href="/advertise_form">Advertise here</a><br>
+                -->
+
+                <!--
+                <a href="https://thecage.co.il">thecage.co.il - BDSM Israel</a>
+                -->
+            </div>
+            <div class="col-sm-6">
+                <i class="icon-envelop"></i><a href="mailto:info@thecage.co">info@thecage.co</a>
+                <br>
+                <a href="https://thecage.co">BDSM Community - THE CAGE</a>
+                <div style="font-size: 12px;">
+                    Lavati LTD. &copy; 2024
+                    <br>
+                    21 Akadimias, KEMA Building, 5th Floor, 2107 Nicosia, Cyprus.
+                </div>
+                <div style="font-size: 12px;">
+                    For billing inquiries, please visit <a rel="nofollow" href="https://ccbill.com"
+                                                           style="text-decoration: underline;"
+                                                           target="_blank">ccbill</a>, our authorized sales and service agent
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>            <script>
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-72315351-1', 'auto');
+				
+
+
+				                ga('send', 'pageview');
+
+                window.addEventListener('appinstalled', function (evt) {
+                    ga('send', 'event', 'A2HS', 'installed');
+                    if (gtag) {
+                        gtag('event', 'A2HS', {
+                            'event_category': 'installed',
+                            'event_label': 'webapp installed',
+                            'value': 1
+                        });
+                    }
+                });
+
+
+            </script>
+			
+        </body>
+		        <script>
+            const loadEmoji = () => {
+                const element = document.getElementsByTagName("main")[0];
+                if (element) {
+                    window.clientApi.emojiParse(element, {
+                        folder: 'svg',
+                        ext: '.svg'
+                    });
+                }
+            }
+
+
+        </script>
+        </html>
+		
