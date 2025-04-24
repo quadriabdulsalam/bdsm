@@ -4,15 +4,16 @@ import Main from './component/main';
 import Work from './component/work';
 import Project from './component/project';
 import Contact from './component/contact';
-import gallery from './component/bloga';
+import background from './assets/background.png'
+
 function App() {
   return (
     <div>
+  
       <Navbar/>
       <Main/>
       <Work/>
       <Project/>
-      <gallery/>
       <Contact/>
     </div>
   );

@@ -8,7 +8,7 @@ function Projectitem({Img, title, hre, owner}) {
                 <h3 className='text-2xl font-bold text-white tracking-wider text-center'>{title}</h3>
                 <p>{owner}</p>
                 <a href={hre}>
-                    <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>
+                    <p className='text-center p-3 rounded-lg bg-white text-pink-400 font-bold cursor-pointer text-lg'>
                         More Info
                     </p>
                 </a>

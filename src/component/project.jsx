@@ -9,9 +9,9 @@ import bloga from './bloga'
 function Project() {
     return (
         <div id='project' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' >
-            <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Blog</h1>
+            <h1 className='text-4xl font-bold text-center text-pink-400'>Blog</h1>
             <p className='text-center py-8'>
-                lorem ipsum donor sit adipisicing elit, incidunt maxime
+                Welcome to our BDSM blog
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
 
