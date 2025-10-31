@@ -1,69 +1,191 @@
-import React from 'react'
-import { useState } from 'react'
-import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiFillEdit, AiOutlinePicture} from 'react-icons/ai'
-import {BsPerson}  from 'react-icons/bs'
-// import {GrProjects} from 'react-icons/gr'
+// import React from 'react'
+// import { useState } from 'react'
+// import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiFillEdit, AiOutlinePicture} from 'react-icons/ai'
+// import {BsPerson}  from 'react-icons/bs'
+// // import {GrProjects} from 'react-icons/gr'
+
+// function Navbar() {
+//     const[nav, setNav] = useState(false)
+//     const handleNav = () =>{
+//         setNav(!nav)
+//         console.log('state chnged')
+//     }
+//     return (
+//         <div>
+//         <AiOutlineMenu onClick={handleNav} className='absolute fixed top-4 right-4 z-[99] md:hidden text-white text-3xl '/>
+//         {
+//             nav ? (
+//             <div className='fixed w-full h-screen bg-black/50  flex flex-col justify-center items-center z-20 text-pink-400'>
+//                 <a onClick={handleNav} href='#main' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+//                     <AiOutlineHome size={20}/>
+//                     <span className='pl-4'>Home</span>
+//                 </a>
+//                 <a onClick={handleNav} href='#work' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+//                     <AiOutlinePicture size={20}/>
+//                     <span className='pl-4'>Work</span>
+//                 </a>
+//                 <a onClick={handleNav} href='#project' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+//                     <AiFillEdit size={20}/>
+//                     <span className='pl-4'>Project</span>
+//                 </a>
+//                 {/* <a onClick={handleNav} href='#bloga' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+//                     <BsPerson size={20}/>
+//                     <span className='pl-4'>Resume</span>
+//                 </a> */}
+//                 <a onClick={handleNav} href='#contact' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+//                     <AiOutlineMail size={20}/>
+//                     <span className='pl-4'>Contact</span>
+//                 </a>
+
+//             </div>
+//             )
+//             :(
+//             ''
+//             )
+//         }
+//         <div className=' md:block hidden fixed top-[25%] z-10'>
+//             <div className=' flex flex-col text-pink-400'>
+//                 <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                     <AiOutlineHome size={20}/>
+//                 </a>
+//                 <a href='#work' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                     <AiOutlinePicture size={20}/>
+//                 </a>
+//                 <a href='#project' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                     <AiFillEdit size={20}/>
+//                 </a>
+//                 {/* <a href='#resume' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                     <BsPerson size={20}/>
+//                 </a> */}
+//                 <a href='#contact' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                     <AiOutlineMail size={20}/>
+//                 </a>
+//             </div>
+//         </div>
+//         </div>
+//     );
+// };
+
+// export default Navbar
+
+
+
+
+
+
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiFillEdit, AiOutlinePicture } from 'react-icons/ai';
+import { BsBag } from 'react-icons/bs'; // shop icon
 
 function Navbar() {
-    const[nav, setNav] = useState(false)
-    const handleNav = () =>{
-        setNav(!nav)
-        console.log('state chnged')
-    }
-    return (
-        <div>
-        <AiOutlineMenu onClick={handleNav} className='absolute fixed top-4 right-4 z-[99] md:hidden text-white text-3xl '/>
-        {
-            nav ? (
-            <div className='fixed w-full h-screen bg-black/50  flex flex-col justify-center items-center z-20 text-pink-400'>
-                <a onClick={handleNav} href='#main' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiOutlineHome size={20}/>
-                    <span className='pl-4'>Home</span>
-                </a>
-                <a onClick={handleNav} href='#work' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiOutlinePicture size={20}/>
-                    <span className='pl-4'>Work</span>
-                </a>
-                <a onClick={handleNav} href='#project' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiFillEdit size={20}/>
-                    <span className='pl-4'>Project</span>
-                </a>
-                {/* <a onClick={handleNav} href='#bloga' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <BsPerson size={20}/>
-                    <span className='pl-4'>Resume</span>
-                </a> */}
-                <a onClick={handleNav} href='#contact' className='w-[75%] flex flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiOutlineMail size={20}/>
-                    <span className='pl-4'>Contact</span>
-                </a>
+  const [nav, setNav] = useState(false);
 
-            </div>
-            )
-            :(
-            ''
-            )
-        }
-        <div className=' md:block hidden fixed top-[25%] z-10'>
-            <div className=' flex flex-col text-pink-400'>
-                <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineHome size={20}/>
-                </a>
-                <a href='#work' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlinePicture size={20}/>
-                </a>
-                <a href='#project' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiFillEdit size={20}/>
-                </a>
-                {/* <a href='#resume' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsPerson size={20}/>
-                </a> */}
-                <a href='#contact' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail size={20}/>
-                </a>
-            </div>
-        </div>
-        </div>
-    );
-};
+  const handleNav = () => {
+    setNav(!nav);
+    console.log('state changed');
+  };
 
-export default Navbar
+  return (
+    <div>
+      {/* Mobile Menu Button */}
+      <AiOutlineMenu
+        onClick={handleNav}
+        className="fixed top-4 right-4 z-[99] md:hidden text-white text-3xl"
+      />
+
+      {/* Mobile Menu */}
+      {nav ? (
+        <div className="fixed w-full h-screen bg-black/70 flex flex-col justify-center items-center z-20 text-pink-400">
+          {/* Home (page root) */}
+          <a
+            onClick={handleNav}
+            href="#main"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineHome size={20} />
+            <span className="pl-4">Home</span>
+          </a>
+
+          {/* Work (scrolls on home page) */}
+          <a
+            onClick={handleNav}
+            href="#work"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlinePicture size={20} />
+            <span className="pl-4">Work</span>
+          </a>
+
+          {/* Project */}
+          <a
+            onClick={handleNav}
+            href="#project"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiFillEdit size={20} />
+            <span className="pl-4">Project</span>
+          </a>
+
+          {/* Contact */}
+          <a
+            onClick={handleNav}
+            href="#contact"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineMail size={20} />
+            <span className="pl-4">Contact</span>
+          </a>
+
+          {/* Shop (new page) */}
+          <Link
+            onClick={handleNav}
+            to="/shop"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <BsBag size={20} />
+            <span className="pl-4">Shop</span>
+          </Link>
+        </div>
+      ) : null}
+
+      {/* Desktop Menu */}
+      <div className="hidden md:block fixed top-[25%] z-10">
+        <div className="flex flex-col text-pink-400">
+          <a
+          href="#main"
+            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#work"
+            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlinePicture size={20} />
+          </a>
+          <a
+            href="#project"
+            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiFillEdit size={20} />
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlineMail size={20} />
+          </a>
+          <Link
+            to="/shop"
+            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <BsBag size={20} />
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
